@@ -1,0 +1,74 @@
+.utep-logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 200px;
+  height: 200px;
+}
+
+.container{
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+    position: relative;
+    overflow: hidden;
+    width: 50%;
+    height: 50%;
+    margin: auto;
+
+  }
+  
+  .mat-card-title{
+    font-size: 32px;
+    font-weight: bold;
+  }
+  .full-width-input {
+    border: none;
+    margin: 8px 0;
+    width: 100%;
+  }
+  
+  .mat-blue {
+    background-color: #FF8200;
+    color: #fff;
+  } 
+  
+  p {
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 20px;
+    letter-spacing: 0.5px;
+    margin: 10px 20% 20px;
+  }
+  
+  button {
+    transition: transform 80ms ease-in;
+  }
+  
+  button:active {
+    transform: scale(0.95);
+  }
+  
+  mat-card-content{
+    background-color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    text-align: center;
+  }
+  
+  .sign-in-container{
+    padding-top:110px;
+    transition: all 1s ease-in-out;
+  }
+  
+  
+  .login{
+    background-color: #041E42;
+    
+  }
+  
+  
+  

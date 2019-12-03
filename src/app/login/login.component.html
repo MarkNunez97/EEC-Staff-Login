@@ -1,0 +1,24 @@
+<div class="login">
+    <img mat-card-image src="https://www.utep.edu/Images/UTEP-Footer.png" class="utep-logo">
+    <mat-card class="container">
+        <div class="sign-in-container">
+            <mat-card-content>
+                <mat-card-title>
+                    Staff Sign in
+                </mat-card-title>
+        
+                <mat-form-field class="full-width-input">
+                    <input matInput placeholder="Email" [(ngModel)]="siEmail" required>
+                </mat-form-field>
+                <br/>
+                <mat-form-field class="full-width-input">
+                    <input matInput placeholder="Password"[(ngModel)]="siPassword" type="password" required>
+                </mat-form-field>
+                <br/>
+                <mat-card-actions>
+                        <button mat-raised-button (click)="signIn()" [color]="'blue'">Sign in</button>
+                </mat-card-actions>
+            </mat-card-content>
+        </div>
+    </mat-card>
+</div>
